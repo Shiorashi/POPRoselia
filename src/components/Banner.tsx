@@ -226,9 +226,9 @@ export default function Banner() {
                 />
 
                 <div className="absolute top-[15%] left-1/2 transform -translate-x-1/2 text-black text-4xl font-bold">
-                    <h1 className={`text-center ${nunito.className} font-black text-6xl text-pink-400 text-stroke`}>POP ROSELIA</h1>
+                    <h1 className={`text-center ${nunito.className} font-black text-6xl text-red-600`}>POP ROSELIA</h1>
                     <motion.h1 
-                        className={`text-center ${nunito.className} text-6xl font-black text-pink-400 text-stroke`}
+                        className={`text-center ${nunito.className} text-6xl font-black text-red-600`}
                         initial={{ scale: 1, rotate: 0 }}
                         animate={isAnimating ? { scale: 1.25, rotate: 15 } : { scale: 1, rotate: 0 }}
                         transition={{ duration: 0.3 }}>
