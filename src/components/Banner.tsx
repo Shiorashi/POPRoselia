@@ -29,7 +29,7 @@ export default function Banner() {
 
 
     useEffect(() => {
-        const storedClicks = localStorage.getItem('clicked');
+        const storedClicks = localStorage.getItem('clicked_Roselia');
         if (storedClicks) {
           addClick(parseInt(storedClicks, 10));
         }
@@ -70,7 +70,7 @@ export default function Banner() {
 
     useEffect(() => {
         if (isInitialized) {
-            localStorage.setItem('clicked', (clicked).toString());
+            localStorage.setItem('clicked_Roselia', (clicked).toString());
         }
       }, [clicked,isInitialized]);
       
